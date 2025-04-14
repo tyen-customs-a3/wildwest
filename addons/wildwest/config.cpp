@@ -49,7 +49,7 @@ class CfgWeapons
 		model = "\tc\wildwest\gear\helmet_cowboyhat_1.p3d";
 		hiddenSelections[] = 
 		{
-			camo1
+			"camo1"
 		};
 
 		class ItemInfo: ItemInfo
@@ -60,7 +60,7 @@ class CfgWeapons
 			{
 				class Head
 				{
-					hitpointName = HitHead;
+					hitpointName = "HitHead";
 					armor = 4;
 					passThrough = 0.5;
 				};

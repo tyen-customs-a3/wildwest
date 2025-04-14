@@ -1,0 +1,22 @@
+name = "wild_west"
+author = "tyen"
+prefix = "tc"
+mainprefix = "z"
+
+[version]
+major = 1
+minor = 0
+patch = 0
+build = 1
+
+[hemtt.build]
+pdrive = "require"
+
+[hemtt.check]
+pdrive = "ignore"
+
+[files]
+include = [
+    "logo.paa",
+    "logo_small.paa",
+]
